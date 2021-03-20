@@ -1,0 +1,87 @@
+.headerContainer {
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+
+.headerContent {
+    z-index: 999;
+    overflow: hidden;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: rgb(54, 54, 54);
+    font-family: Quicksand;
+}
+
+.headerContent ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.headerContent  a{
+    text-decoration: none;
+}
+
+.headerContent li {
+    margin-left: 20px;
+    
+}
+
+.headerContent a{
+    text-transform: uppercase;    
+    font-weight: 700;
+    font-size: 1em;
+    display: block;
+    padding: 10px 16px;
+    letter-spacing: 2px;
+       
+} 
+
+.headerContent a:hover {
+    color: black;
+    /* background-color: rgba(114, 102, 102, 0.041); */
+    text-shadow: 2px 2px 15px black;
+}
+
+.headerContent h1 {
+    border-bottom: none;
+}
+
+.image {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+} 
+
+.mainHeader {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(85, 63, 63);
+    text-decoration: none;
+    border-bottom: none;   
+}
+
+h1::after {
+    border-bottom: none;
+}
+
+a {
+    font-size: 22px;
+    color: rgb(97, 56, 56);
+}
+a::after {
+    font-size: 22px;
+    color: rgb(97, 56, 56);
+}

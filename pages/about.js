@@ -1,17 +1,17 @@
 import Layout from "../components/Layout"
 
-export default function Home() {
-  var title = "Breakfast Guild"
+export default function About() {
+  var title = "About - Breakfast Guild"
+
   return (
     <>
       <Layout title={title}>
         <div className="layoutChildrenContainer">
           <div className="layoutChildrenContent">
-            <p>Welcome.</p>
-            <p>There is nothing to see here. Yet.</p>
+            <p>There is also nothing to see here.</p>
           </div>
         </div>
-      </Layout>        
+      </Layout>       
     </>
   )
 }
