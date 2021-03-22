@@ -58,11 +58,7 @@
     border-bottom: none;
 }
 
-.image {
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    user-select: none;
-} 
+
 
 .mainHeader {
     margin: 0;
@@ -84,4 +80,56 @@ a {
 a::after {
     font-size: 22px;
     color: rgb(97, 56, 56);
+}
+
+
+button {
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;    
+    font-weight: bold;
+    font-size: 1em;
+    
+    
+    width: 90px;
+    height: 30px;
+
+    color: rgb(85, 63, 63);
+
+    border: none;
+    border-radius: 6px;       
+    background-color: rgb(238, 238, 238);
+
+
+    float: right;
+    display: block;
+    margin-right: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 2px solid rgb(192, 192, 192);
+}
+
+.float-left {
+    margin-left: 40px;
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.imageContainer {
+    position: absolute;
+    background-color: teal;
+    width: 70px;
+    height: 60px;
+    margin-left: 10px;
+    margin-bottom: 7px;
+}
+
+.imageContainer img {
+    margin: 0;
+    padding: 0;
+    background-color: blue;
 }
